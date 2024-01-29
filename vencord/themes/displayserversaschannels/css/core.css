@@ -1,6 +1,6 @@
 /**
  * @name DisplayServersAsChannels
- * @version 1.0.0
+ * @version 1.1.0
  * @description A light theme to transform this circle line into beautiful folders
  * @author Pyratt
  *
@@ -20,7 +20,10 @@
 	--DSAC-scroller-width: 200px;
 	--DSAC-scroller-margin-container: 8px;
 
-	--DSAC-guild-fint-size: 1rem;
+	--DSAC-guild-font-size: 1rem;
+
+	--DSAC-accent-unread: #5b5b5b;
+    	--DSAC-accent-opened: hsl(var(--accent-hue),calc(var(--accent-saturation) * var(--saturation-factor)),var(--accent-lightness));
 
 	/*************************/
 	/* other PLUGINS options */
@@ -29,8 +32,4 @@
 	/* Vencord ReadAllNotificationsButton */
 	--DSAC-readall-button-width: 168px;
  }
-
- /* INCOMING FEATURES 
- 	- FOLDER SUPPORT
-*/
  
