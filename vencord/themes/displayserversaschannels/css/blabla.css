@@ -160,3 +160,63 @@ div.wrapper_d281dd:hover:before {
 		transform: translate(0, 0);
 	}
   }
+
+.pill__6b31b,
+.pill_d1140c,
+.pill__357e7,
+.item_f9d377 {
+    width: 10px !important;
+    border-radius: calc(var(--DSAC-border-radius) * 2);
+    left: -4px;
+    margin-left: 0;
+}
+
+.pill__357e7.wrapper__3670f {
+    top: 5px;
+}
+
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 1"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 2"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 3"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 4"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 5"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 6"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 7"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 8"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 9"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 10"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 11"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 12"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 13"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 14"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 15"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 16"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 17"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 18"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 19"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 20"] {
+    background-color: var(--DSAC-accent-unread);
+}
+
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 21"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 22"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 23"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 24"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 25"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 26"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 27"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 28"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 29"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 30"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 31"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 32"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 33"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 34"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 35"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 36"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 37"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 38"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 39"],
+#app-mount .listItem_fa7b36 [class*=pill] span[style*="height: 40"] {
+    background-color: var(--DSAC-accent-opened) !important;
+}
