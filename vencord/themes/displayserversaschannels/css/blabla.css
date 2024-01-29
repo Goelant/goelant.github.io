@@ -125,6 +125,29 @@ div.wrapper_d281dd:hover:before {
 	animation-delay: 2s;
 }
 
+.wrapper_ed1dea ul {
+	padding-bottom: 30px !important;
+}
+
+.folder__17546 {
+	position: absolute;
+	left: -66px;
+	width: calc(var(--DSAC-scroller-width) - 20px);
+	z-index: 2;
+	border-radius: calc( var(--DSAC-border-radius) * 2) !important;
+	overflow: hidden;
+}
+
+.expandedFolderBackground__1bec6 {
+	left: 8px;
+   	width: calc(var(--DSAC-scroller-width) - 20px);
+}
+
+.folderIconWrapper__72239 {
+	padding-right: calc(100% - 38px);
+    	border-radius: calc( var(--DSAC-border-radius) * 2);
+}
+
 @keyframes slide {
 	0% {
 		transform: translate(0, 0);
