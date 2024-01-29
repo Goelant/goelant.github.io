@@ -23,7 +23,7 @@
 	--DSAC-guild-font-size: 1rem;
 
 	--DSAC-accent-unread: #5b5b5b;
-    	--DSAC-accent-opened: hsl(var(--accent-hue),calc(var(--accent-saturation) * var(--saturation-factor)),var(--accent-lightness));
+    	--DSAC-accent-opened: var(--brand-experiment, hsl(var(--accent-hue),calc(var(--accent-saturation) * var(--saturation-factor)),var(--accent-lightness));
 
 	/*************************/
 	/* other PLUGINS options */
