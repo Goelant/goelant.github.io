@@ -7,8 +7,14 @@
  * @website https://pyratt.sh
  * @source https://pyratt.sh
  */
- @import url();
+
+ /* Import all the discord classes stuff */
+ @import url(https://github.com/Goelant/goelant.github.io/tree/main/vencord/themes/displayserversaschannels/css/blabla.css);
+
  :root {
+	/****************/
+	/* DSAC options */
+	/****************/
 	--DSAC-border-radius: 8px;
 
 	--DSAC-scroller-width: 200px;
@@ -16,146 +22,11 @@
 
 	--DSAC-guild-fint-size: 1rem;
 
-	/* PLUGINS */
+	/*************************/
+	/* other PLUGINS options */
+	/*************************/
+
+	/* Vencord ReadAllNotificationsButton */
 	--DSAC-readall-button-width: 168px;
  }
  
- .wrapper_a7e7a8 .scroller__3d071 {
-	overflow: hidden scroll;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding-right: 0px;
-	background-color: var(--main-color);
-	margin-right: var(--DSAC-scroller-margin-container);
- }
-
-.wrapper_d281dd .childWrapper__01b9c {
-	border-radius: 8px !important;
-}
-.folder__17546, .folderIconWrapper__72239 {
-	border-radius: 4px !important;
-}
-.circleButtonMask-1_597P, .circleIconButton_d8df29 {
-	border-radius: 8px !important;
-}
-
-.listItem_fa7b36 {
-	position: relative;
-    margin: 4px;
-    display: flex;
-    justify-content: center;
-    width: var(--custom-list-items-list-item-width);
-    width: calc(100% - 26px);
-    display: flex;
-    justify-content: flex-start;
-    border-radius: calc(var(--button-height) / 2);
-    padding: 4px 8px;
-}
-
-.blobContainer__5ee50 {
-	width: 100%;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-}
-
-.wrapper_a7e7a8,
-.wrapper_ed1dea,
-.guilds__2b93a {
-	width: var(--DSAC-scroller-witdh);
-}
-
-.listItem_fa7b36:has(> .guildSeparator_dcb3cc) {
-	position: relative;
-    margin: 0px !important;
-    width: var(--DSAC-scroller-witdh) !important;
-    background: transparent !important;
-    padding: 0px !important;
-}
-
-.guildSeparator_dcb3cc {
-    width: 160px !important;
-	margin: 5px auto;
-}
-
-.listItem_fa7b36 .wrapper__3af0b .icon__0cbed {
-	border-radius : 0px !important;
-}
-
-.wrapper__3af0b svg mask {
-	display: none;
-}
-
-.icon__0cbed,
-.wrapper__3af0b,
-.svg_ad7356 {
-    width: calc(var(--DSAC-scroller-width) - 20px)!important;
-    height: 48px;
-	text-align: left;
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-}
-
-.wrapper__3af0b foreignObject {
-	width: 168px;
-	position: absolute;
-	overflow: visible;
-}
-
-.wrapper_d281dd {
-	position: absolute;
-	border-radius: calc( var(--DSAC-border-radius) * 2);
-	overflow: hidden;
-	left: -66px;
-	background: var(--sidebar-panel-color) !important;
-	width: 48px;
-	padding-right: calc(100% - 38px);
-	z-index: 2;
-}
-
-.listItem_fa7b36 .wrapper__3af0b {
-	border-radius:  calc( var(--DSAC-border-radius) * 2);
-}
-
-button.button_afdfd9.lookFilled__19298.colorBrand_b2253e.sizeMin__94642.grow__4c8a4 {
-	width: var(--DSAC-readall-button-width) !important;
-    margin: 5px 10px 5px 10px !important;
-}
-
-/* PILL */
-.pill__6b31b,
-.pill_d1140c  {
-	top: 4px;
-	left: 2px
-}
-
-div.wrapper_d281dd:before {
-	content: attr(aria-label);
-	color: white;
-	position: absolute;
-	z-index: -1;
-	white-space: nowrap;
-	left: 54px;
-	font-size: var(--guild-font-size);
-}
-
-div.wrapper_d281dd:hover:before {
-	animation: slide 10s linear infinite;
-	animation-delay: 2s;
-}
-
-@keyframes slide {
-	0% {
-		transform: translate(0, 0);
-	}
-	50% {
-		transform: translate(-62%, 0);
-		opacity: 1;
-	}
-	100% {
-		transform: translate(0, 0);
-	}
-  }
