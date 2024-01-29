@@ -1,0 +1,30 @@
+:root {
+    --icon-width: 44px;
+    --icon-height: 44px;
+
+    --icon-right-margin: 4px;
+}
+
+.buttons_ce5b56 {
+    position: absolute;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width: var(--icon-width);
+    max-width: max-content;
+    overflow: hidden;
+
+    right: var(--icon-right-margin);
+    transition: ease 1s;
+}
+
+.buttons_ce5b56 > * {
+    height: var(--icon-height);   
+}
+
+.buttons_ce5b56:hover {
+    flex-wrap: nowrap;
+    width: 100%;
+}
