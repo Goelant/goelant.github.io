@@ -125,6 +125,20 @@ div.wrapper_d281dd:hover:before {
 	animation-delay: 2s;
 }
 
+div.folder__17546:before {
+	content: attr(aria-label);
+	color: white;
+	position: absolute;
+	z-index: -1;
+	white-space: nowrap;
+	left: 54px;
+	font-size: var(--guild-font-size);
+}
+
+div.folder__17546:hover:before {
+	animation: slide 10s linear infinite;
+	animation-delay: 2s;
+}
 .wrapper_ed1dea ul {
 	padding-bottom: 30px !important;
 }
