@@ -81,6 +81,7 @@
 	width: 168px;
 	position: absolute;
 	overflow: visible;
+        mask: none;
 }
 
 .wrapper_d281dd {
